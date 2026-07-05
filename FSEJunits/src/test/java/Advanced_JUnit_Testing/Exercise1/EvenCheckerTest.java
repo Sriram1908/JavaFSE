@@ -10,7 +10,7 @@ public class EvenCheckerTest {
     protected final EvenChecker e = new EvenChecker();
 
     @ParameterizedTest
-    @ValueSource(ints = {2,4,6,9})
+    @ValueSource(ints = {2,4,6,22})
     void testisEven(int num)
     {
         boolean res = e.isEven(num);
